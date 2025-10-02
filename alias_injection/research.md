@@ -19,3 +19,11 @@ Set-Alias -Name .\cmd.exe -Value C:\Windows\System32\calc.exe
 Set-Alias -Name C:\Windows\System32\cmd.exe -Value C:\Windows\System32\calc.exe
 ```
 Yeah... This actually works. You effectively overwrite the path search with an alias because alias' are evaluated first. 
+
+
+
+TODO:
+- complete PoC for using aliases to inject into processes
+- alias's with spaces for obfuscation
+- functions for all the above
+- attack thoughts and more PoC's 
